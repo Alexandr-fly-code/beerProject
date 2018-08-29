@@ -1,0 +1,68 @@
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <link href=“https://fonts.googleapis.com/c  ss?family=Roboto:300,400,500,700,900” rel=“stylesheet”>
+      <link href="https://fonts.googleapis.com/css?family=Jura:3  00,400" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/r  eleases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNznt  ih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin=  "anonymous">
+      <!--
+        Notice the use of  in the tags above.
+        It will be replaced with the URL of the `public` folder   during the build.
+        Only files inside the `public` folder can be referenced   from the HTML.
+        Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" w  ill
+        work correctly both with client-side routing and a non-r  oot public URL.
+        Learn how to configure a non-root public URL by running   `npm run build`.
+      -->
+      <title>React App</title>
+    <link href="/static/css/main.e252d9df.css" rel="stylesheet">  </head>
+    <body>
+      <noscript>
+        You need to enable JavaScript to run this app.
+      </noscript>
+      <div id="root"></div>
+      <!--
+        This HTML file is a template.
+        If you open it directly in the browser, you will see an   empty page.
+        You can add webfonts, meta tags, or analytics to this fi  le.
+        The build step will place the bundled scripts into the <  body> tag.
+        To begin the development, run `npm start` or `yarn start  `.
+        To create a production bundle, use `npm run build` or `y  arn build`.
+      -->
+    <script type="text/javascript" src="/static/js/main.3629a0cd  .js"></script></body>
+  </html>
+  
+  - htmlparser.js:240 new HTMLParser
+    [beerProject]/[html-minifier]/src/htmlparser.js:240:13
+  
+  - htmlminifier.js:951 minify
+    [beerProject]/[html-minifier]/src/htmlminifier.js:951:3
+  
+  - htmlminifier.js:1306 exports.minify
+    [beerProject]/[html-minifier]/src/htmlminifier.js:1306:16
+  
+  - index.js:296 
+    [beerProject]/[html-webpack-plugin]/index.js:296:16
+  
+  - util.js:16 tryCatcher
+    [beerProject]/[bluebird]/js/release/util.js:16:23
+  
+  - promise.js:512 Promise._settlePromiseFromHandler
+    [beerProject]/[bluebird]/js/release/promise.js:512:31
+  
+  - promise.js:569 Promise._settlePromise
+    [beerProject]/[bluebird]/js/release/promise.js:569:18
+  
+  - promise.js:614 Promise._settlePromise0
+    [beerProject]/[bluebird]/js/release/promise.js:614:10
+  
+  - promise.js:693 Promise._settlePromises
+    [beerProject]/[bluebird]/js/release/promise.js:693:18
+  
+  - async.js:133 Async._drainQueue
+    [beerProject]/[bluebird]/js/release/async.js:133:16
+  
+  - async.js:143 Async._drainQueues
+    [beerProject]/[bluebird]/js/release/async.js:143:10
+  
+  - async.js:17 Immediate.Async.drainQueues
+    [beerProject]/[bluebird]/js/release/async.js:17:14
+  
+</pre>
