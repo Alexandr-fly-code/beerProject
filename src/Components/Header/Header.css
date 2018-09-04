@@ -106,7 +106,7 @@ Header {
     font-size: 1rem;
 }
 
-.header__random-product {
+/* .header__random-product {
     display: block;
     position: absolute;
     top: 50%;
@@ -118,7 +118,7 @@ Header {
     -webkit-border-radius: 0.35rem;
     -moz-border-radius: 0.35rem;
     border-radius: 0.35rem;
-}
+} */
 
 @media (min-width: 768px) {
     .header__wrapper  {
